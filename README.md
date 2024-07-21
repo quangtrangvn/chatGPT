@@ -10,7 +10,7 @@
      sudo apt-get update -y
      ```
      ```bash
-     sudo apt update && sudo apt list --upgradable -y
+     sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y
      ```
 3. **cài đặt các thư viện cần thiết cho hệ thống:**
    - **Lệnh**:
