@@ -21,5 +21,5 @@
      pip3 install python-telegram-bot openai
      ```
      ```bash
-     pip install openai==0.27.8 # Hoặc phiên bản 0.x mới nhất
+     pip install openai==0.27.8
      ```
