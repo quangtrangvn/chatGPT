@@ -43,7 +43,7 @@
      nano telegram_bot.py
      ```
      - **sữa các tham số TELEGRAM_BOT_TOKEN & OPENAI_API_KEY đúng với tham số đã lưu lại ở bước chuẩn bị**:
-     - Sau khi sửa lưu lại :wq đối với vi & vim, Ctrl + x sau đó bấm y và chọn enter để lưu và thoát.
+     - Sau khi sữa lưu lại :wq đối với vi & vim, Ctrl + x sau đó bấm y và chọn enter để lưu và thoát.
      - Chạy bot với lệnh:
      ```bash
      python3 telegram_bot.py
