@@ -1,12 +1,11 @@
-# telechatbot
+# telechatbot Tích hợp chatGPT vào telegram bot bằng python trên VPS ubuntu 22.04
 
 #### Cách thực hiện chi tiết:
 
-1. **Check logs**
-   - **Mô tả**: Lệnh này để kiểm tra log của container `sing-box` trong thời gian thực.
+1. **Cập nhật hệ thống**
    - **Lệnh**:
      ```bash
-     docker logs -f sing-box
+     sudo apt-get update -y
      ```
 
 2. **Làm mới**
