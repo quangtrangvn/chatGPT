@@ -9,4 +9,11 @@
      ```bash
      sudo apt-get update -y
      ```
-
+3. **cài đặt các thư viện cần thiết cho hệ thống**
+   - **Lệnh**:
+     ```bash
+     sudo apt-get install python3 python3-pip
+     ```
+     ```bash
+     pip3 install python-telegram-bot openai
+     ```
