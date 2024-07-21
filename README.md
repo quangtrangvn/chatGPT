@@ -23,3 +23,11 @@
      ```bash
      pip install openai==0.27.8
      ```
+4. **Dowload file python chưa thư viện chạy bot vô VPS bằng curl:**
+   - **Lệnh**:
+     ```bash
+     sudo apt-get install curl -y
+     ```
+     ```bash
+     curl -O https://raw.githubusercontent.com/quangtrangvn/telechatbot/main/telegram_bot.py
+     ```
