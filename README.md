@@ -1,4 +1,4 @@
-#Tích hợp chatGPT vào telegram bot bằng python trên VPS ubuntu 22.04
+# Tích hợp chatGPT vào telegram bot bằng python trên VPS ubuntu 22.04
 
 #### Cách thực hiện chi tiết:
 #### Chuẩn bị 1 VPS ubuntu 22.04 TLS, 1 bot telegram được tạo bởi https://t.me/BotFather lưu lại TOKEN bot.
