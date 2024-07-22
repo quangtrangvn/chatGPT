@@ -42,14 +42,14 @@
      ```bash
      nano telegram_bot.py
      ```
-     - **sữa các tham số TELEGRAM_BOT_TOKEN & OPENAI_API_KEY đúng với tham số đã lưu lại ở bước chuẩn bị**
+     - **sửa các tham số TELEGRAM_BOT_TOKEN & OPENAI_API_KEY đúng với tham số đã lưu lại ở bước chuẩn bị**
      - Sau khi sửa lưu lại :wq đối với vi & vim, Ctrl + x sau đó bấm y và chọn enter để lưu và thoát đối với nano.
      - Chạy bot với lệnh:
      ```bash
      python3 telegram_bot.py
      ```
 6. **Sử dụng PM2 để quản lý bot:**
-   - Để đảm bảo rằng cả hai bot hoặc nhiều bot đều chạy liên tục và khởi động lại khi hệ thống khởi động lại, bạn có thể sử dụng PM2.
+   - **Để đảm bảo rằng cả hai bot hoặc nhiều bot đều chạy liên tục và khởi động lại khi hệ thống khởi động lại, bạn có thể sử dụng PM2*
    - **Lệnh**:
      ```bash
      sudo apt install nodejs npm
