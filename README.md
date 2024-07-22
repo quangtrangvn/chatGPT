@@ -57,9 +57,13 @@
      ```bash
      sudo npm install -g pm2
      ```
-- Chạy các bot với PM2.
-   Khởi động bot.
+- Chạy các bot với PM2, Khởi động bot.
    - **Lệnh**:
      ```bash
      pm2 start /root/telegram_bot.py --name telegram_bot
+     ```
+- Lưu trạng thái của PM2 để tự động khởi động lại khi hệ thống khởi động lại.
+      ```bash
+     pm2 save
+     pm2 startup
      ```
