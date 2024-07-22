@@ -68,3 +68,4 @@
      pm2 save
      pm2 startup
      ```
+ - Lệnh pm2 startup sẽ hướng dẫn bạn các bước cần thiết để cấu hình hệ thống để tự động khởi động PM2 khi hệ thống khởi động lại.
