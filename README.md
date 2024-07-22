@@ -49,7 +49,7 @@
      python3 telegram_bot.py
      ```
 6. **Sử dụng PM2 để quản lý bot:**
-   - **Để đảm bảo rằng cả hai bot hoặc nhiều bot đều chạy liên tục và khởi động lại khi hệ thống khởi động lại, bạn có thể sử dụng PM2*
+   - **Để đảm bảo rằng cả hai bot hoặc nhiều bot đều chạy liên tục và khởi động lại khi hệ thống khởi động lại, bạn có thể sử dụng PM2**
    - **Lệnh**:
      ```bash
      sudo apt install nodejs npm
