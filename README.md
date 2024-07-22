@@ -69,10 +69,13 @@
      pm2 startup
      ```
    Lệnh pm2 startup sẽ hướng dẫn bạn các bước cần thiết để cấu hình hệ thống để tự động khởi động PM2 khi hệ thống khởi động lại.
-- Kiểm tra và quản lý các bot,
-  Kiểm tra trạng thái các tiến trình PM2
+- Kiểm tra và quản lý các bot, Kiểm tra trạng thái các tiến trình PM2.
   - **Lệnh**:
      ```bash
      pm2 status
      ```
-  
+- Xem logs của một bot cụ thể.
+  - **Lệnh**:
+     ```bash
+     pm2 logs telegram_bot
+     ```
