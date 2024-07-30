@@ -29,18 +29,18 @@
      sudo apt-get install curl -y
      ```
      ```bash
-     curl -O https://raw.githubusercontent.com/quangtrangvn/telechatbot/main/telegram_bot.py
+     curl -O https://raw.githubusercontent.com/quangtrangvn/chatGPT/main/chatGPT_bot.py
      ```
-5. **Mở file telegram_bot.py bằng công cụ vi, vim hoặc nano:**
+5. **Mở file chatGPT_bot.py bằng công cụ vi, vim hoặc nano:**
    - **Lệnh**:
      ```bash
-     vi telegram_bot.py
+     vi chatGPT_bot.py
      ```
      ```bash
-     vim telegram_bot.py
+     vim chatGPT_bot.py
      ```
      ```bash
-     nano telegram_bot.py
+     nano chatGPT_bot.py
      ```
      - **sửa các tham số TELEGRAM_BOT_TOKEN & OPENAI_API_KEY đúng với tham số đã lưu lại ở bước chuẩn bị.**
      - Sau khi sửa lưu lại :wq đối với vi & vim, Ctrl + x sau đó bấm y và chọn enter để lưu và thoát đối với nano.
@@ -60,7 +60,7 @@
 - Chạy các bot với PM2, Khởi động bot.
    - **Lệnh**:
      ```bash
-     pm2 start /root/telegram_bot.py --name telegram_bot
+     pm2 start /root/chatGPT_bot.py --name chatGPT_bot
      ```
 - Lưu trạng thái của PM2 để tự động khởi động lại khi hệ thống khởi động lại.
   - **Lệnh**:
@@ -77,6 +77,6 @@
 - Xem logs của một bot cụ thể.
   - **Lệnh**:
      ```bash
-     pm2 logs telegram_bot
+     pm2 logs chatGPT_bot
      ```
 # CHÚC CÁC BẠN THÀNH CÔNG!
