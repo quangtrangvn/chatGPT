@@ -7,10 +7,7 @@
 2. **Cập nhật hệ thống:**
    - **Lệnh**:
      ```bash
-     sudo apt-get update -y
-     ```
-     ```bash
-     sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y
+     sudo apt update && sudo apt upgrade -y 
      ```
 3. **cài đặt các thư viện cần thiết cho hệ thống:**
    - **Lệnh**:
